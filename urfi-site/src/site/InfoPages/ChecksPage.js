@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import "../Homepage.css";
+import "./ChecksPage.css";
 
 class ChecksPage extends Component {
     render() {
         return (
-            <h2>LoansPage</h2>
+            <div>
+                <h2>Checks 101</h2>
+            </div>
+
         );
     }
 }
