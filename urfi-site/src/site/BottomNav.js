@@ -18,7 +18,6 @@ class BottomNav extends Component {
   // }
 
   handleChange (event, value) {
-    console.log('value of this', this)
     this.setState({ value })
   };
 
