@@ -8,30 +8,50 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-import CreditDebit from './CreditDebit'
 import BottomNav from './site/BottomNav'
+import BankPage from './site/InfoPages/BankPage'
+import ChecksPage from './site/InfoPages/ChecksPage'
+import CreditDebtPage from './site/InfoPages/CreditDebtPage'
+import LoansPage from './site/InfoPages/LoansPage'
+import RetirementPage from './site/InfoPages/RetirementPage'
 
 function App () {
   return (
     <Router>
       <Switch>
         <Route path='/' exact>
+          <h1 className='middle-nav'>URFI</h1>
           <Homepage />
           <BottomNav />
         </Route>
         <Route path='/bank'>
           {/* <BankPage /> */}
-          <CreditDebit />
+          <h1 className='middle-nav'>URFI</h1>
+          <BankPage />
+          <BottomNav />
+        </Route>
+        <Route path='/checks'>
+          {/* <BankPage /> */}
+          <h1 className='middle-nav'>URFI</h1>
+          <ChecksPage />
           <BottomNav />
         </Route>
         <Route path='/creditdebt'>
           {/* <BankPage /> */}
-          <CreditDebit />
+          <h1 className='middle-nav'>URFI</h1>
+          <CreditDebtPage />
           <BottomNav />
         </Route>
-        <Route path='/freeroute'>
+        <Route path='/loans'>
           {/* <BankPage /> */}
-          <CreditDebit />
+          <h1 className='middle-nav'>URFI</h1>
+          <LoansPage />
+          <BottomNav />
+        </Route>
+        <Route path='/retirement'>
+          {/* <BankPage /> */}
+          <h1 className='middle-nav'>URFI</h1>
+          <RetirementPage />
           <BottomNav />
         </Route>
       </Switch>

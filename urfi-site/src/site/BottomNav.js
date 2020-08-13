@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link, withRouter } from 'react-router-dom'
 import BottomNavigation from '@material-ui/core/BottomNavigation'
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction'
-import { AccountBalance, Home, CreditCard, Settings } from '@material-ui/icons'
+import { AccountBalance, Home, CreditCard, Settings, Receipt, AccountBalanceWallet, EmojiPeople } from '@material-ui/icons'
 
 class BottomNav extends Component {
   constructor (props) {
@@ -25,17 +25,21 @@ class BottomNav extends Component {
     const { value } = this.state
 
     return (
-      <BottomNavigation
-        value={value}
-        onChange={this.handleChange.bind(this)}
-        showLabels
-        className='bottom-nav'
-      >
-        <BottomNavigationAction label='Home' icon={<Home />} component={Link} to='/' />
-        <BottomNavigationAction label='Bank' icon={<AccountBalance />} component={Link} to='/bank' />
-        <BottomNavigationAction label='Credit/Debit' icon={<CreditCard />} component={Link} to='/creditdebt' />
-        <BottomNavigationAction label='Debug Button' icon={<Settings />} component={Link} to='/freeroute' />
-      </BottomNavigation>
+      <div>
+        <BottomNavigation
+          value={value}
+          onChange={this.handleChange.bind(this)}
+          showLabels
+          className='bottom-nav'
+        >
+          <BottomNavigationAction label='Home' icon={<Home />} component={Link} to='/' />
+          <BottomNavigationAction label='Bank' icon={<AccountBalance />} component={Link} to='/bank' />
+          <BottomNavigationAction label='Checks' icon={<Receipt />} component={Link} to='/checks' />
+          <BottomNavigationAction label='Credit/Debit' icon={<CreditCard />} component={Link} to='/creditdebt' />
+          <BottomNavigationAction label='Loans' icon={<AccountBalanceWallet />} component={Link} to='/loans' />
+          <BottomNavigationAction label='Retirement' icon={<EmojiPeople />} component={Link} to='/retirement' />
+        </BottomNavigation>
+      </div>
     )
   }
 }
