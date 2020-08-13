@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Homepage from "./site/Homepage.js";
-import Checkspage from "./site/ChecksPage.js";
+import Checkspage from "./site/InfoPages/ChecksPage.js";
 import Web from "./site/Web.js";
 import {
   BrowserRouter as Router,

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import "./Homepage.css";
+import "../Homepage.css";
 
-class ChecksPage extends Component {
+class BankPage extends Component {
     render() {
         return (
             <h2>ChecksPage</h2>
@@ -9,4 +9,4 @@ class ChecksPage extends Component {
     }
 }
 
-export default ChecksPage;
+export default BankPage;
