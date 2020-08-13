@@ -11,7 +11,7 @@ import {
 import BottomNav from './site/BottomNav'
 import BankPage from './site/InfoPages/BankPage'
 import ChecksPage from './site/InfoPages/ChecksPage'
-import CreditDebtPage from './site/InfoPages/CreditDebtPage'
+import CreditDebitPage from './site/InfoPages/CreditDebitPage'
 import LoansPage from './site/InfoPages/LoansPage'
 import RetirementPage from './site/InfoPages/RetirementPage'
 
@@ -39,7 +39,7 @@ function App () {
         <Route path='/creditdebt'>
           {/* <BankPage /> */}
           <h1 className='middle-nav'>URFI</h1>
-          <CreditDebtPage />
+          <CreditDebitPage />
           <BottomNav />
         </Route>
         <Route path='/loans'>
