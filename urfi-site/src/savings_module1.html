@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>untitled</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" charset="utf-8">
+function output() {
+    var value1 = document.getElementById('value1').value;
+    var value2 = document.getElementById('value2').value;
+    var monthly_income = value1 - value2
+    var year = 12
+    var yearly_income = monthly_income * year
+    document.getElementById('result').innerHTML = monthly_income;
+    document.getElementById('year_result').innerHTML = yearly_income;
+    // document.getElementById('result').innerHTML = parseInt(value1) + parseInt(value2);
+}
+</script>
+<h1>Practice Saving your Money</h1>
+<h2>First, input how much money you make a month</h2>
+<input id="value1" type="text" />
+<h2>Second, input how much money you want to put aside after every monthly salary check:</h2>
+<!--<span> + </span>-->
+<input id="value2" type="text" />
+<input type="Submit" onclick="output();">
+
+
+<h2>Perfect! You have this much savings from one year</h2>
+<p id="result"></p>
+<h2>You saved this much money spend in your checking account</h2>
+<p id="year_result"></p>
+</body>
+</html>
+
