@@ -27,8 +27,6 @@ class BottomNav extends Component {
     return (
       <div className="backgroundBar">
         <BottomNavigation
-          value={value}
-          onChange={this.handleChange.bind(this)}
           showLabels
           className='bottom-nav'
         >
