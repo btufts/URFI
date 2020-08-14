@@ -12,7 +12,7 @@ class LoansPage extends Component {
                     <div className='cd-row'>
                         <div className='cd-column'>
                             <h2>Mortgage</h2>
-                            <p>column 1</p>
+                            <p>Column 1</p>
                         </div>
                         <div className='cd-column'>
                             <h2>Car</h2>
