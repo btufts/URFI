@@ -1,10 +1,24 @@
 import React, { Component } from 'react';
-import "../Homepage.css";
+import "./BankPage.css";
 
 class BankPage extends Component {
     render() {
         return (
-            <h2>ChecksPage</h2>
+            <div className="Layout">
+                <div className="title">
+                    <h1>BanksPage</h1>
+                </div>
+                <div className="compare">
+                    <div className="left">
+
+                    </div>
+                    <div className="right">
+
+                    </div>
+                </div>
+            </div>
+
+
         );
     }
 }

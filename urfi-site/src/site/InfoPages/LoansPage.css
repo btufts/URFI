@@ -1,0 +1,19 @@
+.title {
+    justify-content: center;
+}
+
+.title h2 {
+    font-size: 48px;
+}
+
+.cd-column {
+    flex: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cd-row {
+    display: flex;
+    margin: 0 auto;
+  }
+

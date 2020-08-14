@@ -1,0 +1,31 @@
+.layout {
+    height: 80%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    margin-top: 30;
+}
+
+.title {
+    padding-top: 100;
+    text-align: center;
+    grid-row: 1;
+}
+
+.compare {
+    height: 100%;
+    width: 100%;
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.left {
+    grid-column-start: 1;
+    background-color: chartreuse;
+}
+
+.right {
+    grid-column-start: 2;
+    background-color: coral;
+}
