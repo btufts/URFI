@@ -22,6 +22,7 @@ class LoansPage extends Component {
                               <li>Duration</li>
                               <li>Money Down</li>
                             </ul>
+                            <Button variant="primary">Primary</Button>{' '}
                             <a target="_blank" href="https://www.fool.com/mortgages/our-guide-to-mortgages-for-beginners.aspx">
                             <button type="submit">Learn more</button>
                             </a>
