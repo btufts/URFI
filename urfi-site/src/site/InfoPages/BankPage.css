@@ -1,31 +1,40 @@
-.layout {
-    height: 80%;
-    width: 100%;
-    display: grid;
-    grid-template-rows: 10% 90%;
-    margin-top: 30;
-}
-
 .title {
-    padding-top: 100;
     text-align: center;
-    grid-row: 1;
 }
 
-.compare {
-    height: 100%;
+.bank-wrapper {
+    margin-top: 4%;
+}
+
+.practice {
+    margin-top: 100px;
+}
+
+.practice p {
+    text-align: start;
+}
+.cd-column1{
+    width: 50%;
+    border-right: 3px solid black;
+    margin-left: 5px;
+    margin-right: 5%;
+}
+.cd-column2{
+    border-left: 3px solid black;
     width: 100%;
-    grid-row-start: 2;
-    display: grid;
-    grid-template-columns: 50% 50%;
+}
+  
+  .cd-row {
+    display: flex;
+    margin: 0 auto;
 }
 
-.left {
-    grid-column-start: 1;
-    background-color: chartreuse;
+.savingsImage {
+    width: 35%;
+    height: 25%;
 }
 
-.right {
-    grid-column-start: 2;
-    background-color: coral;
+.checkingImage  {
+    width:45%;
+    height: 25%;
 }
