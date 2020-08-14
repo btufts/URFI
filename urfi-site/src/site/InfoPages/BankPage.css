@@ -1,5 +1,12 @@
-.title {
+.titleBank {
     text-align: center;
+    margin-top: -1%;
+    padding-bottom: 3%;
+    
+}
+
+.titleBank h1{
+    font-size: 60px;
 }
 
 .bank-wrapper {
@@ -8,6 +15,9 @@
 
 .practice {
     margin-top: 100px;
+    width: 50%;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
 }
 
 .practice p {
@@ -37,4 +47,8 @@
 .checkingImage  {
     width:45%;
     height: 25%;
+}
+
+.button {
+    height: 32px;
 }

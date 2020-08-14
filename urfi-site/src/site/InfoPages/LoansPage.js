@@ -26,7 +26,7 @@ class LoansPage extends Component {
                             </ul>
 
                             <a target="_blank" href="https://www.fool.com/mortgages/our-guide-to-mortgages-for-beginners.aspx">
-                              <Button id="button" type="submit" variant="primary">Learm More</Button>{' '}
+                                <Button id="button" type="submit" variant="primary">Learm More</Button>{' '}
                             </a>
                         </div>
                         <div className='cd-column'>
@@ -75,6 +75,10 @@ class LoansPage extends Component {
                             to get, the interest rates may vary drastically depending on
                             your credit and other various factors.  If you are in need for
                             quick cash, a credit card may be able to provide this, however,
+                            you must be able to pay back all that you borrow. After all, a
+                            credit card is <b>NOT</b> free money, rather borrowed money to
+                            make a large upfront purchase and paid off over time but you end
+                            up spending more that way.
                             </p>
                             <a target="_blank" href="https://www.nerdwallet.com/article/loans/personal-loans/personal-loan-bank-credit-union">
                                 <Button id="button" type="submit" variant="primary">Learm More</Button>{' '}

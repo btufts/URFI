@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './BankPage.css'
+import Button from 'react-bootstrap/Button';
 
 import SavingsImg from '../../savings.png';
 import CheckingImg from '../../checking.png';
@@ -49,7 +50,7 @@ class BankPage extends Component {
     render() {
         return (
             <div className="bank-wrapper">
-                <div className="title">
+                <div className="titleBank">
                     <h1>Bank Accounts 101</h1>
                 </div>
                 <center>
@@ -68,8 +69,7 @@ class BankPage extends Component {
                             <p>This means if you get .1% a year compounded monthly, .008% would be added to your savings every month!</p>
                             <h4>Example</h4>
                             <p>You have $1000 in savings, $.08 would be added to your account the first month </p>
-                            <p>then .008% of $1,000.08 would be added the next month!</p>then .008% of $1,000.08 would be added the next month!
-
+                            <p>then .008% of $1,000.08 would be added the next month!</p>
                         </div>
                         <div classname='cd-column2'>
                             <img src={CheckingImg} className="checkingImage" />
@@ -86,16 +86,16 @@ class BankPage extends Component {
                     </div>
                 </center>
                 <div className="practice">
-                    <h1>Practice Saving your Money</h1>
-                    <h2>First, input how much money you make a month</h2>
+                    <h1>See How Much You Can Make by Saving!</h1>
+                    <h2>First, input how much money you make a month:</h2>
                     <input id='value1' type='text' onChange={e => this.monthlyUpdate(e)} />
-                    <h2>Second, input how much money you want to put aside after every monthly salary check:</h2>
+                    <h2>Second, input how much money you can put aside from your monthly income:</h2>
                     <input id='value2' type='text' onChange={e => this.asideUpdate(e)} />
-                    <button type='Submit' onClick={() => this.output()}>Submit</button>
+                    <Button className='button' id='button' type='Info' variant="primary" onClick={() => this.output()}>Submit</Button>
 
                     <h2>Perfect! You have this much in savings after one year!</h2>
                     <p id='result'>${this.state.result}</p>
-                    <h2>You can spend this amount in a year</h2>
+                    <h2>You can spend this amount in a year:</h2>
                     <p id='year_result'>${this.state.yearResult}</p>
                     <h2>At 1% interest compounded monthly you made:</h2>
                     <p id='earned'>${this.state.earned}</p>
