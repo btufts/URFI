@@ -5,7 +5,7 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction'
 import { AccountBalance, Home, CreditCard, Settings, Receipt, AccountBalanceWallet, EmojiPeople } from '@material-ui/icons'
 
 class BottomNav extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       value: 0
@@ -17,15 +17,15 @@ class BottomNav extends Component {
   //   const { pathMap } = this.state
   // }
 
-  handleChange (event, value) {
+  handleChange(event, value) {
     this.setState({ value })
   };
 
-  render () {
+  render() {
     const { value } = this.state
 
     return (
-      <div>
+      <div className="backgroundBar">
         <BottomNavigation
           value={value}
           onChange={this.handleChange.bind(this)}
