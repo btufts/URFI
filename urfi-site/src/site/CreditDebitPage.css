@@ -1,3 +1,13 @@
+.titleCredit {
+    text-align: center;
+    margin-top: -3%;
+    padding-bottom: 3%;
+}
+
+.titleCredit h1 {
+  font-size: 60px;
+}
+
 .cd-column {
   flex: 50%;
   margin-left: auto;
@@ -7,4 +17,8 @@
 .cd-row {
   display: flex;
   margin: 0 auto;
+}
+
+.quizContainer {
+  height: 600px;
 }
