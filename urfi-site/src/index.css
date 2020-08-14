@@ -14,7 +14,7 @@ code {
 }
 
 .middle-nav {
-  top: -15px;
+  top: 0px;
   position: fixed;
   z-index: 11;
   width: 10%;
