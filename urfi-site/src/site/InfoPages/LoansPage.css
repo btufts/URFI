@@ -7,14 +7,20 @@
 }
 
 .cd-column {
-    flex: 25%;
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-color: black;
+    padding-left: 1px;
+    padding-right: 1px;
   }
 
   .cd-row {
     display: flex;
     margin: 0 auto;
+    width: 100%;
   }
 
 
@@ -25,9 +31,10 @@
   height: 100px;
   left: auto;
   right: auto;
-
+    
 }
 
 .column-header img {
   height: 100%;
 }
+
