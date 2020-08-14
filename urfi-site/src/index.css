@@ -14,11 +14,13 @@ code {
 }
 
 .middle-nav {
-  top: -10px;
+  top: -15px;
   position: fixed;
   z-index: 11;
-  width: 100%;
-  text-align: center;
+  width: 10%;
+  text-align: start;
+  padding-left: 20px;
+  color: white;
 }
 
 .bottom-nav {
@@ -26,7 +28,7 @@ code {
   right: 20vw;
   width: 500px; */
   
-  top: 55%;
+  top: 0%;
   z-index: 10;
   position: relative;
   height: 0;
@@ -36,8 +38,8 @@ code {
 }
 
 .backgroundBar {
-  background-color: #5ADAB3;
-  height: 12%;
+  background-color: #255f82;
+  height: 50px;
   width: 100%;
   position: fixed;
   top: 0px;

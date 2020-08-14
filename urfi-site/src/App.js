@@ -15,7 +15,7 @@ import CreditDebitPage from './site/InfoPages/CreditDebitPage'
 import LoansPage from './site/InfoPages/LoansPage'
 import RetirementPage from './site/InfoPages/RetirementPage'
 
-function App () {
+function App() {
   return (
     <Router>
       <Switch>
