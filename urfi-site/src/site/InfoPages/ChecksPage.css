@@ -9,7 +9,7 @@
 .checkArea {
     position: relative;
     text-align: center;
-    width: 40%;
+    width: 800px;
 }
 .imageBox {
     justify-content: center;
@@ -17,8 +17,8 @@
 
 .nameField {
     position: absolute;
-    top: 105px;
-    left: 125px;
+    top: 120px;
+    left: 140px;
     font-size: 14px;
     color: black;
 }
@@ -33,15 +33,15 @@
 .amountField {
     position: absolute;
     font-size: 11px;
-    top: 110px;
-    right: 30px;
+    top: 120px;
+    right: 60px;
 }
 
 .writtenAmount {
     position: absolute;
     font-size: 23px;
-    bottom: 140px;
-    left: 60px
+    bottom: 145px;
+    left: 75px
 }
 
 .signField {
