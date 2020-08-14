@@ -26,15 +26,21 @@
 
 .column-header {
   display: inline-block;
-  height: 30px;
+  max-height: 100px;
   width: 100px;
   height: 100px;
   left: auto;
   right: auto;
-    
+  margin-bottom: 90px;
 }
 
 .column-header img {
   height: 100%;
+  width: auto;
 }
 
+#button {
+  border: None;
+  background: #5adab3;
+  font-weight: bold;
+}

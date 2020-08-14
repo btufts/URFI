@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./LoansPage.css";
 
 class LoansPage extends Component {
@@ -24,7 +26,7 @@ class LoansPage extends Component {
                             </ul>
 
                             <a target="_blank" href="https://www.fool.com/mortgages/our-guide-to-mortgages-for-beginners.aspx">
-                                <button type="submit">Learn more</button>
+                              <Button id="button" type="submit" variant="primary">Learm More</Button>{' '}
                             </a>
                         </div>
                         <div className='cd-column'>
@@ -48,7 +50,7 @@ class LoansPage extends Component {
                             <p>You can calculate how much your car loan would cost per month using bankrate.com's
                             car loan calculator</p>
                             <a target="_blank" href="https://www.bankrate.com/calculators/auto/auto-loan-calculator.aspx">
-                                <button type="submit">Calculate it!</button>
+                                <Button id="button" type="submit" variant="primary">Calculate it!</Button>{' '}
                             </a>
                         </div>
                         <div className='cd-column'>
@@ -61,7 +63,7 @@ class LoansPage extends Component {
                             federal student aid is filling out the FAFSA Form. <br></br><br></br>You
                             can apply today here:</p>
                             <a target="_blank" href="https://studentaid.gov/h/apply-for-aid/fafsa">
-                                <button type="submit">Apply Now!</button>
+                                <Button id="button" type="submit" variant="primary">Apply Now!</Button>{' '}
                             </a>
                         </div>
                         <div className='cd-column'>
@@ -75,7 +77,7 @@ class LoansPage extends Component {
                             quick cash, a credit card may be able to provide this, however,
                             </p>
                             <a target="_blank" href="https://www.nerdwallet.com/article/loans/personal-loans/personal-loan-bank-credit-union">
-                                <button type="submit">Personal Loans</button>
+                                <Button id="button" type="submit" variant="primary">Learm More</Button>{' '}
                             </a>
                         </div>
                     </div>
