@@ -16,7 +16,7 @@ class Homepage extends Component {
     render() {
         return (
             <div className="wrapper-component">
-                <center className="center">
+                <center>
                     {/* <h2>An Unbiased Repository of Financial Information</h2>
                 </center>
                 <p>Are you in need of help and don't want to </p> */}
