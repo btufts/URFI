@@ -3,7 +3,7 @@
 }
 
 .title h2 {
-    font-size: 48px;
+    font-size: 60px;
 }
 
 .cd-column {
@@ -11,9 +11,22 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .cd-row {
     display: flex;
     margin: 0 auto;
   }
 
+.column-header {
+  display: inline-block;
+  height: 30px;
+  width: 100px;
+  height: 100px;
+  left: auto;
+  right: auto;
+
+}
+
+.column-header img {
+  height: 100%;
+}
