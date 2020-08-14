@@ -44,3 +44,8 @@
   background: #5adab3;
   font-weight: bold;
 }
+
+#button:hover {
+  color: #5adab3;
+  background: #5adab324;
+}
