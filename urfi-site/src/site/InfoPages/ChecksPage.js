@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./ChecksPage.css";
 
-import check from "../../check.png";
+import CheckImg from "../../CheckImg.png";
 import bank from "../../bank1.png";
 import arrow from "../../arrow.png";
 
@@ -12,32 +12,15 @@ class ChecksPage extends Component {
                 <div className="title">
                     <h2>Checks 101</h2>
                 </div>
-                <center>
+                <center className="center">
                     <div className="checkArea">
-                        <img src={check} className="checkImage" />;
-                        <div className="nameField">
-                            <p>Name of person or business you are giving the check to</p>
-                        </div>
-                        <div className="dateField">
-                            <p>Today's Date</p>
-                        </div>
-                        <div className="amountField">
-                            <p>Cost of purchase ex(85.00)</p>
-                        </div>
-                        <div className="writtenAmount">
-                            <p>Write Out Amount ex(Eighty-Five and 0/100)</p>
-                        </div>
-                        <div className="signField">
-                            <p>Your Signature</p>
-                        </div>
-                        <div className="memoField">
-                            <p>Why are you writing this</p>
-                        </div>
+                        <img src={CheckImg} className="checkImage" />
                     </div>
+                    <p> A check is basically a transaction note for the bank to transer money from your checking account into whoever is cashing the check</p>
                 </center>
                 <div className="bank">
-                    <img src={bank} className="bankImage" />;
-                    <img src={arrow} className="arrowImage" />;
+                    <img src={bank} className="bankImage" />
+                    <img src={arrow} className="arrowImage" />
                     <p>Money comes from your checking account!</p>
                 </div>
                 <div className="bounce">

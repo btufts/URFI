@@ -15,52 +15,16 @@
     justify-content: center;
 }
 
-.nameField {
-    position: absolute;
-    top: 120px;
-    left: 140px;
-    font-size: 14px;
-    color: black;
-}
-
-.dateField {
-    position: absolute;
-    top: 45px;
-    right: 140px;
-    font-size: 23px;
-}
-
-.amountField {
-    position: absolute;
-    font-size: 11px;
-    top: 120px;
-    right: 60px;
-}
-
-.writtenAmount {
-    position: absolute;
-    font-size: 23px;
-    bottom: 145px;
-    left: 75px
-}
-
-.signField {
-    position: absolute;
-    font-size: 23px;
-    bottom: 80px;
-    right: 140px;
-}
-
-.memoField {
-    position: absolute;
-    font-size: 23px;
-    bottom: 80px;
-    left: 100px;
-}
 
 .checkImage {
     height: 100%;
     width: 100%;
+    padding-top: 30px;
+}
+
+.center p {
+    padding-top: 30px;
+    width: 30%;
 }
 
 .bank {
