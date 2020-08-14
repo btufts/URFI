@@ -43,11 +43,11 @@
 
 #button {
   border: None;
-  background: #5adab3;
+  background: #255e82;
   font-weight: bold;
 }
 
 #button:hover {
-  color: #5adab3;
-  background: #5adab324;
+  color: #255e82;
+  background: #255d8236;
 }
